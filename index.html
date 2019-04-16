@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="Generating">
+        <div class="header">
+            <h2>Password Generator</h2>
+        </div>
+    <center>
+        <div id="sec_password">
+
+            <div id="box1">Your New Password</div>
+
+            <a href="#" class="button" onclick="ChangingText()">Generate Password</a>
+      
+        </div>
+    </center>
+    </div>
+    
+    <form>
+    <center>
+        <label for="length">Length</label>
+        <input type="text" id="length" name="length" value="8">
+    </center>
+    </form>
+        <label class="container">Include Symbols (e.g. !@#$%&)
+            <input type="checkbox" checked="checked" id="Symbols">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Include Numbers (e.g. 123456)
+            <input type="checkbox" checked="checked" id="Numbers">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Include Lowercase Characters (e.g. abcdefgh)
+            <input type="checkbox" checked="checked" id="Lower">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container"> Include Uppercase Characters (e.g. ABCDEFGH)
+            <input type="checkbox" checked="checked" id="Upper">
+            <span class="checkmark"></span>
+        </label>
+        
+
+        
+
+
+</body>
+</html>
